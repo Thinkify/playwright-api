@@ -1,0 +1,242 @@
+{
+    "config": {
+      "forbidOnly": false,
+      "globalSetup": null,
+      "globalTeardown": null,
+      "globalTimeout": 0,
+      "grep": {},
+      "grepInvert": null,
+      "maxFailures": 0,
+      "preserveOutput": "always",
+      "projects": [
+        {
+          "outputDir": "../playwright/test-results",
+          "repeatEach": 1,
+          "retries": 0,
+          "name": "",
+          "testDir": " ../playwright/test-results",
+          "testIgnore": [],
+          "testMatch": [
+            "**/?(*.)@(spec|test).@(ts|js|mjs)"
+          ],
+          "timeout": 30000
+        }
+      ],
+      "reporter": [
+        [
+          "json",
+          {
+            "outputFile": "results.json"
+          }
+        ]
+      ],
+      "reportSlowTests": {
+        "max": 5,
+        "threshold": 15000
+      },
+      "rootDir": " ../playwright/test-results",
+      "quiet": false,
+      "shard": null,
+      "updateSnapshots": "missing",
+      "version": "1.16.3",
+      "workers": 2,
+      "webServer": null
+    },
+    "suites": [
+      {
+        "title": "tests/scenarios/fb.spec.js",
+        "file": "tests/scenarios/fb.spec.js",
+        "line": 0,
+        "column": 0,
+        "specs": [],
+        "suites": [
+          {
+            "title": "feature facebook",
+            "file": "tests/scenarios/fb.spec.js",
+            "line": 5,
+            "column": 6,
+            "specs": [
+              {
+                "title": "facebook Signup 1",
+                "ok": true,
+                "tags": [],
+                "tests": [
+                  {
+                    "timeout": 30000,
+                    "annotations": [],
+                    "expectedStatus": "passed",
+                    "projectName": "",
+                    "results": [
+                      {
+                        "workerIndex": 0,
+                        "status": "passed",
+                        "duration": 11898,
+                        "stdout": [],
+                        "stderr": [],
+                        "retry": 0,
+                        "attachments": [
+                          {
+                            "name": "trace",
+                            "contentType": "application/zip",
+                            "path": " ../playwright/test-results/test-results/tests-scenarios-fb-feature-facebook-facebook-Signup-1/trace.zip"
+                          },
+                          {
+                            "name": "screenshot",
+                            "contentType": "image/png",
+                            "path": " ../playwright/test-results/test-results/tests-scenarios-fb-feature-facebook-facebook-Signup-1/test-finished-1.png"
+                          }
+                        ]
+                      }
+                    ],
+                    "status": "expected"
+                  }
+                ],
+                "file": "tests/scenarios/fb.spec.js",
+                "line": 11,
+                "column": 5
+              },
+              {
+                "title": "facebook Login 2",
+                "ok": true,
+                "tags": [],
+                "tests": [
+                  {
+                    "timeout": 30000,
+                    "annotations": [],
+                    "expectedStatus": "passed",
+                    "projectName": "",
+                    "results": [
+                      {
+                        "workerIndex": 0,
+                        "status": "passed",
+                        "duration": 7800,
+                        "stdout": [],
+                        "stderr": [],
+                        "retry": 0,
+                        "attachments": [
+                          {
+                            "name": "trace",
+                            "contentType": "application/zip",
+                            "path": " ../playwright/test-results/test-results/tests-scenarios-fb-feature-facebook-facebook-Login-2/trace.zip"
+                          },
+                          {
+                            "name": "screenshot",
+                            "contentType": "image/png",
+                            "path": " ../playwright/test-results/test-results/tests-scenarios-fb-feature-facebook-facebook-Login-2/test-finished-1.png"
+                          }
+                        ]
+                      }
+                    ],
+                    "status": "expected"
+                  }
+                ],
+                "file": "tests/scenarios/fb.spec.js",
+                "line": 16,
+                "column": 7
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "tests/scenarios/foo.spec.js",
+        "file": "tests/scenarios/foo.spec.js",
+        "line": 0,
+        "column": 0,
+        "specs": [],
+        "suites": [
+          {
+            "title": "feature foo",
+            "file": "tests/scenarios/foo.spec.js",
+            "line": 3,
+            "column": 6,
+            "specs": [
+              {
+                "title": "basic test",
+                "ok": true,
+                "tags": [],
+                "tests": [
+                  {
+                    "timeout": 30000,
+                    "annotations": [],
+                    "expectedStatus": "passed",
+                    "projectName": "",
+                    "results": [
+                      {
+                        "workerIndex": 1,
+                        "status": "passed",
+                        "duration": 6416,
+                        "stdout": [],
+                        "stderr": [],
+                        "retry": 0,
+                        "attachments": [
+                          {
+                            "name": "trace",
+                            "contentType": "application/zip",
+                            "path": " ../playwright/test-results/test-results/tests-scenarios-foo-feature-foo-basic-test/trace.zip"
+                          },
+                          {
+                            "name": "screenshot",
+                            "contentType": "image/png",
+                            "path": " ../playwright/test-results/test-results/tests-scenarios-foo-feature-foo-basic-test/test-finished-1.png"
+                          }
+                        ]
+                      }
+                    ],
+                    "status": "expected"
+                  }
+                ],
+                "file": "tests/scenarios/foo.spec.js",
+                "line": 4,
+                "column": 5
+              },
+              {
+                "title": "my test",
+                "ok": true,
+                "tags": [],
+                "tests": [
+                  {
+                    "timeout": 30000,
+                    "annotations": [],
+                    "expectedStatus": "passed",
+                    "projectName": "",
+                    "results": [
+                      {
+                        "workerIndex": 1,
+                        "status": "passed",
+                        "duration": 6319,
+                        "stdout": [
+                          {
+                            "text": "Fast and reliable end-to-end testing for modern web apps | Playwright\n"
+                          }
+                        ],
+                        "stderr": [],
+                        "retry": 0,
+                        "attachments": [
+                          {
+                            "name": "trace",
+                            "contentType": "application/zip",
+                            "path": " ../playwright/test-results/test-results/tests-scenarios-foo-feature-foo-my-test/trace.zip"
+                          },
+                          {
+                            "name": "screenshot",
+                            "contentType": "image/png",
+                            "path": " ../playwright/test-results/test-results/tests-scenarios-foo-feature-foo-my-test/test-finished-1.png"
+                          }
+                        ]
+                      }
+                    ],
+                    "status": "expected"
+                  }
+                ],
+                "file": "tests/scenarios/foo.spec.js",
+                "line": 10,
+                "column": 5
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "errors": []
+  }
